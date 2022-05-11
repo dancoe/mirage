@@ -26,3 +26,5 @@ https://stsci.box.com/v/coe-nircam-mirage
 https://github.com/dancoe/mirage
 
 https://dancoe.space/jwst/simulations
+
+![color image](MACS0647_color.jpg)
