@@ -10,8 +10,7 @@ slight misalignments between short and long wavelength images
 4 dithers INTRAMODULEX covers short wavelength detector gaps  
 F200W has 2 epochs (8 exposures)  
 
-CLASH HST F160W Sersic fits
-
+CLASH HST F160W Sersic fits  
 NIRCam predicted fluxes from BAGPIPES SED fitting to CLASH HST 17-band photometry  
 
 ✔ [HST catalog & Sersic fits](https://github.com/dancoe/mirage/blob/master/MACS0647%20Galaxies%20HST%20Sersic%20fits.ipynb) – (Astropy.photutils, Astropy.modeling)  
@@ -23,16 +22,16 @@ NIRCam predicted fluxes from BAGPIPES SED fitting to CLASH HST 17-band photometr
 ✔ NIRCam PSF-matched multiband photometry – (Astropy.photutils)  
 ✔ [Inspect NIRCam photometry](https://github.com/dancoe/mirage/blob/master/MACS0647%20NIRCam%20photometry%20results.ipynb)  
 
-Inputs:
-* [CLASH](https://archive.stsci.edu/prepds/clash/) [HST images of MACS0647](https://archive.stsci.edu/missions/hlsp/clash/macs0647/data/hst/scale_65mas/)
-* [cleaned segmentation map of detections](https://github.com/dancoe/mirage/blob/master/z11_seg_cleaned.fits.gz)
-* APT outputs: [XML](https://github.com/dancoe/mirage/blob/master/JWSTz11_NIRCam.xml), [pointing](https://github.com/dancoe/mirage/blob/master/JWSTz11_NIRCam.pointing)
-
 To do list:  
 ? Add lensed fainter & higher-z galaxies – (e.g., Aaron Yung SAMs)  
 ☐ Incorporate HST images to photometry + SED fitting  
 ☐ Galaxy detection & analysis – (Astropy.photutils, BAGPIPES)  
 ☐ Distinguish stars (brown dwarfs) from galaxies (as in LePhare)  
+
+Inputs:
+* [CLASH](https://archive.stsci.edu/prepds/clash/) [HST images of MACS0647](https://archive.stsci.edu/missions/hlsp/clash/macs0647/data/hst/scale_65mas/)
+* [cleaned segmentation map of detections](https://github.com/dancoe/mirage/blob/master/z11_seg_cleaned.fits.gz)
+* APT outputs: [XML](https://github.com/dancoe/mirage/blob/master/JWSTz11_NIRCam.xml), [pointing](https://github.com/dancoe/mirage/blob/master/JWSTz11_NIRCam.pointing)
 
 https://stsci.box.com/v/coe-nircam-mirage
 
