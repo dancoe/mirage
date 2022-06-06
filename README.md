@@ -32,6 +32,7 @@ To do list:
 ? Add lensed fainter & higher-z galaxies – (e.g., Aaron Yung SAMs)  
 ☐ Incorporate HST images to photometry + SED fitting  
 ☐ Galaxy detection & analysis – (Astropy.photutils, BAGPIPES)  
+☐ Distinguish stars (brown dwarfs) from galaxies (as in LePhare)  
 
 https://stsci.box.com/v/coe-nircam-mirage
 
