@@ -19,6 +19,7 @@ NIRCam predicted fluxes from BAGPIPES SED fitting to CLASH HST 17-band photometr
 ✔ [NIRCam simulated images](https://github.com/dancoe/mirage/blob/master/Simulate%20NIRCam%20Images%20MACS0647%20F277W.ipynb) – (MIRAGE)  
 ✔ [Processed & combined](https://github.com/dancoe/mirage/blob/master/Reduce%20NIRCam%20Simulated%20Images%20MACS0647%20F277W.ipynb) – (JWST Pipeline; CEERS tips & scripts)  
 ✔ [Color images](https://github.com/dancoe/mirage/blob/master/Trilogy%20color%20images%20NIRCam%20MACS0647.ipynb) – Trilogy (updated for Python 3 notebook)  
+✔ [NIRCam detections](https://github.com/dancoe/mirage/blob/master/MACS0647%20NIRCam%20detections.ipynb)  
 ✔ NIRCam PSF-matched multiband photometry  
 ✔ [Inspect NIRCam photometry](https://github.com/dancoe/mirage/blob/master/MACS0647%20NIRCam%20photometry%20results.ipynb)  
 
