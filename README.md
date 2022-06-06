@@ -1,16 +1,18 @@
 # Simulating JWST NIRCam images of a galaxy cluster with MIRAGE
 
-MIRAGE simulated NIRCam images of the galaxy cluster MACS0647+70 and the triply-lensed z=11 candidate MACS0647-JD
+MIRAGE simulated NIRCam images of the galaxy cluster MACS0647+70 and the triply-lensed z=11 candidate MACS0647-JD. This cluster simulation is meant to complement simulated blank field data from 
+[JADES](https://fenrir.as.arizona.edu/jaguar/) and 
+[CEERS](https://ceers.github.io/releases.html).
+Plus I provide analysis tools for the NIRCam imaging.
 
-JWST GO 1433 public data upcoming Nov 2022
-
+JWST GO 1433 public data upcoming Nov 2022  
 7 filters: F115W F150W F200W F277W F356W F444W F480M  
-0.04" / pixel  
+0.04" / pixel image reductions (native SW ~0.03", LW ~0.06")  
 slight misalignments between short and long wavelength images  
-4 dithers INTRAMODULEX covers short wavelength detector gaps  
+4 dithers INTRAMODULEX cover short wavelength detector gaps  
 F200W has 2 epochs (8 exposures)  
 
-CLASH HST F160W Sersic fits  
+Galaxies modeled as Sersic profiles derived from CLASH HST F160W images  
 NIRCam predicted fluxes from BAGPIPES SED fitting to CLASH HST 17-band photometry  
 
 ✔ [HST catalog & Sersic fits](https://github.com/dancoe/mirage/blob/master/MACS0647%20Galaxies%20HST%20Sersic%20fits.ipynb) – (Astropy.photutils, Astropy.modeling)  
@@ -32,6 +34,11 @@ Inputs:
 * [CLASH](https://archive.stsci.edu/prepds/clash/) [HST images of MACS0647](https://archive.stsci.edu/missions/hlsp/clash/macs0647/data/hst/scale_65mas/)
 * [cleaned segmentation map of detections](https://github.com/dancoe/mirage/blob/master/z11_seg_cleaned.fits.gz)
 * APT outputs: [XML](https://github.com/dancoe/mirage/blob/master/JWSTz11_NIRCam.xml), [pointing](https://github.com/dancoe/mirage/blob/master/JWSTz11_NIRCam.pointing)
+
+Output image pixel size choice 0.04":
+- Similar to strategy adopted for HST 0.06" reductions (native ACS 0.05", WFC3/IR 0.13")
+- With 4 dithers, can almost improve resolution 2x with some artifacts; 0.06" -> 0.04" is smooth
+- Higher resolution 0.02" pixel images may also be desirable especially for SW images
 
 https://stsci.box.com/v/coe-nircam-mirage
 
